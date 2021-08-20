@@ -1,0 +1,138 @@
+
+/*----------GENERAL--------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --color-principal:  #00669F;
+    --color-secundario: #E5E5E5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+
+/*----------HEADER---------*/
+.descuento{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    height: 38px;
+    padding: 10px;
+}
+header, footer{
+    background-color: #00669F;
+    color: white;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    padding-top: 28px; 
+    padding-left: 28px;
+    padding-bottom: 26px;
+    position: sticky;
+    top:0px;
+    z-index: 999;
+}
+
+/*-------------MAIN------------*/
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin:30px;
+}
+
+i{
+    color: red;
+}
+
+.foto, .foto3, .foto4{
+    border-radius: 50%;
+    position: relative;
+    top: -59px
+}
+
+.foto3, .foto4{
+    width: 120px;
+    height:118px;  
+}
+
+.batman, .harley, .superman, .mujermaravilla {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 15px;
+    width: 300px;
+    height: 700px;
+    overflow: hidden;
+    
+}
+
+
+.crop {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+}
+
+.heart{
+    position: relative;
+}
+
+
+
+i{
+    position: absolute;
+    left:5px;
+    top:5px
+}
+
+h2{
+    position: relative;
+    top: -40px;
+}
+
+p{
+    position: relative;
+    top: 5%;
+}
+    
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color:#00669F;
+    padding: 15px;
+    position: relative;
+    bottom: 0%;
+    margin: 10px;
+}
+
+.contenidoB, .contenidoH, .contenidoS, .contenidoM{
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------FOOTER---------*/
+
+footer{
+    color: white;
+    font-size: 15px;
+    padding: 16px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+}
+
+.git{
+    position: absolute;
+    
+}
+
+    

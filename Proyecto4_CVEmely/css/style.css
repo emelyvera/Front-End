@@ -1,0 +1,85 @@
+/*ESTILOS GENERALES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;600&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+div{
+    margin: auto;
+    width: 80%;
+}
+
+ ul li{
+     list-style-type: none; 
+     display: inline-block;
+     color: white;
+     font-size: 18px;
+    
+ }
+
+/* HEADER */
+
+header, footer, .color{
+    text-align: center;
+    background-color: rgba(10, 25, 49, 1);
+}
+.myphoto{
+    height: 200px;
+    width: 150px;
+}
+
+h1, h2{
+    background-color: rgba(255, 201, 71, 1);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+ul li{
+    list-style-type: none; 
+    display: inline-block;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+/* MAIN*/
+
+.sky{
+    background-color: rgba(0, 0, 255, 0.185);
+    background-image: url('../img/laguna.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+    padding-top: 20px
+}
+
+.informacion{
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+    text-align: justify;  
+}
+
+.color{
+    background-color: rgba(100, 149, 237, .5);
+    font-size: 50px;
+    font-weight: 300;
+}
+
+dt{
+    font-weight: 600;
+    font-style: italic;
+}
+
+/*FOOTER*/
+
+h3, h4, span{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+

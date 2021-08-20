@@ -1,0 +1,309 @@
+/* documento*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+ul li{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* header*/
+
+header{
+    position: sticky;
+    top:0px;
+    z-index: 999;
+    
+    color: white;
+}
+
+.inicio{
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #222222;
+}
+
+.offer{
+    left: 90px;
+    margin-left: 90px;
+}
+
+.idioma{
+    display: inline-flex;
+    margin-right: 90px;   
+}
+
+h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navegacion{
+    background-color: #F0A83E; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle{
+    display: inline-flex;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.menu{
+    margin-right: 50px;
+}
+
+.barras{
+    display: none;
+}
+
+
+
+/* main*/
+
+main{
+    background-color: white;
+    text-align: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../img/bowl.svg');
+    background-color: rgba(8, 206, 255, 0.267);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;  
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 30px 0px 0px;   
+}
+
+.saludo{
+    background-color: white;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.descuentos{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 8px;
+ 
+}
+
+.comederos{
+    background-color:#F0A83E;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+   padding: 14px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #3C2313;
+    margin-bottom: 20px;
+}
+
+.containerproducts{
+    display: flex;
+    justify-content: center;
+}
+
+.product1, .product2, .product3{
+    margin: 0px;
+}
+.articulos{
+    color: #3C2313;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.precio, .font2{
+    color:#F0A83E;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.formulario{
+   margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+}
+
+.formulario input, button{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #3C2313;
+    font-size: 10px;
+    border-color:transparent;
+}
+
+button{
+    color: white;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+ 
+    
+}
+
+.botones{
+    margin: 30px;
+}
+
+.reset{
+    background-color:  #8A8787;
+}
+
+.submit{
+    background-color: #F0A83E;
+}
+
+.inscripcion{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.emmal{
+    height: 40px ;
+}
+
+.mesaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+.inscri{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;  
+    align-items: center;
+}
+
+.enviaremail{
+    background-color: white;
+    border-color: transparent;
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.bonenviar{
+    background-color: #3C2313;
+    border-color: transparent;
+    height: 40px;
+    
+}
+
+/*footer*/
+
+.informacion{
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.opciones{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.iguales{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.separar{
+    padding-left: 20px;
+}
+
+.nombre{
+    display:flex; 
+    justify-content: flex-end;
+    padding-right: 25px;
+    width: 50%;
+}
+
+.piedepagina{
+    background-color: #222222;
+    text-align: center;
+    color: white;
+}
+
+
+/*@media screen and (max-width:480px){
+    nav ul{
+        display: none;
+    }
+    .barras{
+        display: inline;
+        padding-right: 10px;
+    }
+    .containerproducts{
+        flex-direction: column;
+    }
+    img
+}
+*/
